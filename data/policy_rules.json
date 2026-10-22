@@ -1,0 +1,11 @@
+{
+  "confidence_threshold": 0.85,
+  "refund_manager_approval_threshold": "250",
+  "sla_hours": {"Critical": 2, "High": 4, "Medium": 8, "Low": 24},
+  "legal_keywords": [
+    "lawsuit", "attorney", "lawyer", "legal action", "sue", "sued", "suing",
+    "regulator", "subpoena", "class action"
+  ],
+  "vip_escalation_urgencies": ["High", "Critical"],
+  "vip_escalation_sentiments": ["Frustrated"]
+}

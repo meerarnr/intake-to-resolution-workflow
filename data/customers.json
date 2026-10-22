@@ -1,0 +1,7 @@
+{
+  "C-1001": {"name": "Acme Corp", "tier": "VIP"},
+  "C-1002": {"name": "Globex LLC", "tier": "VIP"},
+  "C-2001": {"name": "Initech", "tier": "STANDARD"},
+  "C-2002": {"name": "Umbrella Retail", "tier": "STANDARD"},
+  "C-2003": {"name": "Hooli Labs", "tier": "STANDARD"}
+}

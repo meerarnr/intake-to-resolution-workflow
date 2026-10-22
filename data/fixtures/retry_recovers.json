@@ -1,0 +1,16 @@
+{
+  "name": "retry_recovers",
+  "customer_id": "C-2001",
+  "ticket_text": "The sync agent has stopped updating my files since this morning.",
+  "extract": [
+    {"customer_id": "C-2001", "category": "Technical", "urgency": "Urgent", "sentiment": "Neutral",
+     "extracted_entities": {}, "confidence_score": 0.9, "requested_refund_amount": null},
+    {"customer_id": "C-2001", "category": "Technical", "urgency": "Medium", "sentiment": "Neutral",
+     "extracted_entities": {"resolution_code": "RES-SYNC-RESTART"}, "confidence_score": 0.9, "requested_refund_amount": null}
+  ],
+  "draft": {
+    "action_type": "AUTO_RESOLVE",
+    "reasoning": "Known resolution RES-SYNC-RESTART applies.",
+    "draft_text": "Please restart the desktop sync agent and re-run sync (resolution RES-SYNC-RESTART)."
+  }
+}

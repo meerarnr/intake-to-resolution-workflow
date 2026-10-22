@@ -1,0 +1,14 @@
+{
+  "name": "billing_refund_over_250",
+  "customer_id": "C-2002",
+  "ticket_text": "I was charged twice for my annual plan (invoice INV-8841). Please refund the duplicate charge of $480.00.",
+  "extract": [{
+    "customer_id": "C-2002", "category": "Billing", "urgency": "Medium", "sentiment": "Neutral",
+    "extracted_entities": {"invoice_id": "INV-8841"}, "confidence_score": 0.95, "requested_refund_amount": "480.00"
+  }],
+  "draft": {
+    "action_type": "REQUIRES_HUMAN_APPROVAL",
+    "reasoning": "Duplicate charge refund is above the manager-approval threshold per the Billing SOP.",
+    "draft_text": "Thanks for flagging the duplicate charge on INV-8841. Because the refund is above our agent limit, a manager is reviewing it. Refunds typically arrive within 5-7 business days after approval."
+  }
+}

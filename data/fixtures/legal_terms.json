@@ -1,0 +1,14 @@
+{
+  "name": "legal_terms",
+  "customer_id": "C-2001",
+  "ticket_text": "My VPN keeps dropping. Unless it is fixed today I will contact my attorney and consider legal action.",
+  "extract": [{
+    "customer_id": "C-2001", "category": "Technical", "urgency": "Medium", "sentiment": "Neutral",
+    "extracted_entities": {"resolution_code": "RES-VPN-REAUTH"}, "confidence_score": 0.92, "requested_refund_amount": null
+  }],
+  "draft": {
+    "action_type": "AUTO_RESOLVE",
+    "reasoning": "Known VPN re-authentication resolution applies.",
+    "draft_text": "We're sorry for the VPN drops. We have re-authenticated your session; please reconnect."
+  }
+}

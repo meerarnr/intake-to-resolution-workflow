@@ -1,0 +1,14 @@
+{
+  "name": "low_confidence_vague",
+  "customer_id": "C-2003",
+  "ticket_text": "Hi, it's not working again, can you look at it?",
+  "extract": [{
+    "customer_id": "C-2003", "category": "General", "urgency": "Medium", "sentiment": "Neutral",
+    "extracted_entities": {}, "confidence_score": 0.41, "requested_refund_amount": null
+  }],
+  "draft": {
+    "action_type": "AUTO_RESOLVE",
+    "reasoning": "Likely a known fix.",
+    "draft_text": "Sorry about the trouble. Could you tell us which product is affected and what you see when it fails?"
+  }
+}

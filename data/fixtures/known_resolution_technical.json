@@ -1,0 +1,14 @@
+{
+  "name": "known_resolution_technical",
+  "customer_id": "C-2001",
+  "ticket_text": "My desktop app keeps showing stale data after syncing. Clearing the cache usually helps but I forgot how to do it.",
+  "extract": [{
+    "customer_id": "C-2001", "category": "Technical", "urgency": "Medium", "sentiment": "Neutral",
+    "extracted_entities": {"resolution_code": "RES-CLEAR-CACHE"}, "confidence_score": 0.96, "requested_refund_amount": null
+  }],
+  "draft": {
+    "action_type": "AUTO_RESOLVE",
+    "reasoning": "Known resolution RES-CLEAR-CACHE applies; the Technical SOP says to share the known fix.",
+    "draft_text": "Please clear the app cache and restart the app (resolution RES-CLEAR-CACHE). That should refresh your synced data. Reply here if it persists and we will escalate to Tier 2."
+  }
+}

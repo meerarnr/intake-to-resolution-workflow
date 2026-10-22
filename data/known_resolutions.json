@@ -1,0 +1,6 @@
+[
+  {"code": "RES-PWD-RESET", "title": "Password reset link", "steps": "Send self-service reset link; confirm login."},
+  {"code": "RES-CLEAR-CACHE", "title": "Clear app cache", "steps": "Ask user to clear cache and restart the app."},
+  {"code": "RES-VPN-REAUTH", "title": "Re-authenticate VPN", "steps": "Revoke VPN session token; user reconnects."},
+  {"code": "RES-SYNC-RESTART", "title": "Restart sync agent", "steps": "Restart the desktop sync agent and re-run sync."}
+]

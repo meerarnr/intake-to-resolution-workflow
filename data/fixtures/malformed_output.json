@@ -1,0 +1,9 @@
+{
+  "name": "malformed_output",
+  "customer_id": "C-2001",
+  "ticket_text": "asdf ~~ refund??? maybe the thing",
+  "extract": [
+    "{this is not valid json",
+    {"customer_id": "C-2001", "category": "Billing"}
+  ]
+}

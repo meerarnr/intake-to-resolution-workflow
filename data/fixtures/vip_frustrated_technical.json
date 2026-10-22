@@ -1,0 +1,14 @@
+{
+  "name": "vip_frustrated_technical",
+  "customer_id": "C-1001",
+  "ticket_text": "This is the third time our SSO login has failed this week and nobody has fixed it. Send me the password reset link again and fix this now.",
+  "extract": [{
+    "customer_id": "C-1001", "category": "Technical", "urgency": "High", "sentiment": "Frustrated",
+    "extracted_entities": {"resolution_code": "RES-PWD-RESET"}, "confidence_score": 0.93, "requested_refund_amount": null
+  }],
+  "draft": {
+    "action_type": "AUTO_RESOLVE",
+    "reasoning": "A known password-reset resolution matches; the Technical SOP says to share it.",
+    "draft_text": "I'm sorry for the repeated trouble. Here is a fresh password reset link; please let us know if the SSO login still fails."
+  }
+}
